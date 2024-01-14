@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+  <meta charset="utf-8" />
+
+</head>
+<style>
+  html,
+  body {
+    /* margin-left: 50vh; */
+    background-color: #E8EAE3;
+    margin: 10vh;
+    padding: 0;
+  }
+
+  canvas {
+    display: block;
+  }
+  button{
+  width:  19vh;
+  background-color: #FA2742; /* Green */
+  border: black 0.5px;
+  box-shadow: black;
+  /* border: none; */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 50%;
+  cursor: pointer;
+  }
+  button:hover{
+     
+  background-color: #3700fe; /* Green */
+
+  /* border: none; */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 50%;
+  cursor: pointer;
+    transition: 0.5s ease;
+
+  }
+</style>
+
+<body>
+  <h1 style="color: #373833; font-family: 'Playfair Display',serif;">Unbeatable Tic-Tak Game</h1>
+  <script src="minimax.js"></script>
+  <script src="design.js"></script>
+
+  <div class="bn">
+  <button onClick="window.location.reload();">Play Again</button>
+</div>
+</body>
+
+</html>
