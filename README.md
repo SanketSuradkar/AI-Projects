@@ -4,4 +4,6 @@ This is the internship tasks given form codsoft
 
 <a href="Chat-bot">AI Chat-Bot</a>
 
+<a href="Face_Detection">Face Detection</a>
+
 
