@@ -3,3 +3,5 @@ The maximizer tries to get the highest score possible while the minimizer tries 
 
 
 ![tiktak gift](https://github.com/SanketSuradkar/CodSoft_AI-Projects/assets/68096112/d1fed96a-c780-455d-8897-386a63cdfff4)
+
+Live link:-https://tictacaigame.netlify.app/
