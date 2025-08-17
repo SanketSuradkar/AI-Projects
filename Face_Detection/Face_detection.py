@@ -56,6 +56,8 @@ def detect_faces_image():
 
 
 # This Function is to perform face detection from the camera 
+
+
 # def detect_faces_camera():
 #     global video_capture
 
@@ -155,4 +157,5 @@ result_label.pack()
 
 # Run the tkinter main loop
 root.mainloop()
+
 
