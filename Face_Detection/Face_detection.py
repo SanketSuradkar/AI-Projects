@@ -50,6 +50,10 @@ def detect_faces_image():
 
         # Display the result
         result_label.config(text=f'Faces Detected: {num_faces}',fg="#000",bg="#d6cadd")
+# __________________________________________________________________________________________________________
+
+#this code is for the camera functaionality and only be asscessed if we have a camera in the pc if dont it would not run the code 
+
 
 # This Function is to perform face detection from the camera 
 # def detect_faces_camera():
@@ -151,3 +155,4 @@ result_label.pack()
 
 # Run the tkinter main loop
 root.mainloop()
+
