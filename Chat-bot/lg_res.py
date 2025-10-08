@@ -1,4 +1,5 @@
 import random
+# this is the responses that are used in the chat bot which  are fetch form this code file , all are predefined codes and responses
 R_sugges = "Ok i'll give you a suggestion just go to the internet PLEASE!!"
 R_EATING = "Sorry bt i cant eat anything beause im an AI-Bot"
 R_ADVICE = "I have one osm advice for you.. just go to the internet and type exactly that you need.. :)"
