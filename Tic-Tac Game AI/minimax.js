@@ -1,5 +1,5 @@
 function bestMove() {
-    // AI to make its turn
+    // AI to make its turn after our turn.
     let bestScore = -Infinity;
     let move;
     for (let i = 0; i < 3; i++) {
@@ -62,4 +62,5 @@ function bestMove() {
       return bestScore;
     }
   }
+
   
