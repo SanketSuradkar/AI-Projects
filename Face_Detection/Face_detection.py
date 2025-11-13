@@ -53,7 +53,7 @@ def detect_faces_image():
 # __________________________________________________________________________________________________________
 
 #this code is for the camera functaionality and only be asscessed if we have a camera in the pc if dont it would not run the code 
-
+# this code usess camera for the detection so that we have disabled the code ad no efect is done within 
 
 # This Function is to perform face detection from the camera 
 
@@ -157,5 +157,6 @@ result_label.pack()
 
 # Run the tkinter main loop
 root.mainloop()
+
 
 
