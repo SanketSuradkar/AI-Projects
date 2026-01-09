@@ -5,7 +5,7 @@ import lg_res as long
 def message_probability(user_message, recognised_words, single_response=False, required_words=[]):
     message_certainty = 0
     has_required_words = True
-
+# supervised machine learing learns from the previous learned data 
     # Counts words are present in each predefined message
     for word in user_message:
         if word in recognised_words:
@@ -77,3 +77,4 @@ def get_response(user_input):
 # Testing the response system
 while True:
     print('Bot: ' + get_response(input('You: ')))
+
