@@ -3,11 +3,11 @@ import tkinter as tk
 from tkinter import filedialog
 from PIL import Image, ImageTk
 
-# this Initialize global variables
+# this Initialize global variables.
 video_capture = None
 #image = None
 
-#This Function is to perform face detection on images
+#This Function is to perform face detection on images.
 def detect_faces_image():
     global image
     global canvas
@@ -157,6 +157,7 @@ result_label.pack()
 
 # Run the tkinter main loop
 root.mainloop()
+
 
 
 
